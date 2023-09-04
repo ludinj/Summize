@@ -7,7 +7,7 @@ const Hero = () => {
         <button
           type='button'
           onClick={() => {
-            window.open('TODO');
+            window.open('https://github.com/ludinj/Summize');
           }}
           className='black_btn'
         >

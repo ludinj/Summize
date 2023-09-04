@@ -133,7 +133,7 @@ const Demo = () => {
         {isFetching ? (
           <img src={loader} alt='loader' className='w-20 h-20 object-contain' />
         ) : null}
-        {error && !article.summary ? (
+        {error && !article.summary && !isFetching ? (
           <p className='font-inter font-bold text-black text-center'>
             Well, that wasn't supposed to happen, try again or try a different
             website, make sure the website contains an article. <br />
